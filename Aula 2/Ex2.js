@@ -1,4 +1,4 @@
-function multiplyMatrices(matrixA, matrixB) {
+function MultiplicacaoMatrix(matrixA, matrixB) {
     const rowsA = matrixA.length;
     const colsA = matrixA[0].length;
     const rowsB = matrixB.length;
@@ -8,20 +8,20 @@ function multiplyMatrices(matrixA, matrixB) {
         return;
     }
     
-    const result = new Array(rowsA);
+    const resultado = new Array(rowsA);
     for (let i = 0; i < rowsA; i++) {
-        result[i] = new Array(colsB).fill(0);
+        resultado[i] = new Array(colsB).fill(0);
     }
     
     for (let i = 0; i < rowsA; i++) {
         for (let j = 0; j < colsB; j++) {
             for (let k = 0; k < colsA; k++) {
-                result[i][j] += matrixA[i][k] * matrixB[k][j];
+                resultado[i][j] += matrixA[i][k] * matrixB[k][j];
             }
         }
     }
     
-    return result;
+    return resultado;
 }
 
 const matrixA = [
@@ -34,7 +34,7 @@ const matrixB = [
     [8, 9]
 ];
 
-const result = multiplyMatrices(matrixA, matrixB);
+const result = MultiplicacaoMatrix(matrixA, matrixB);
 if (typeof result === "string") {
     console.log(result);
 } else {
