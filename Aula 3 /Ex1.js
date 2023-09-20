@@ -22,7 +22,12 @@ fatorial: function (num) {
     } else {
         return num * this.fatorial(num - 1);
     }
+},
+
+porcentagem: function (numA, numB, por){
+    return numA * (numB/100)
 }
+
 };
 
 
