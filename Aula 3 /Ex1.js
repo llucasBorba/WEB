@@ -27,7 +27,5 @@ fatorial: function (num) {
 porcentagem: function (numA, numB, por){
     return numA * (numB/100)
 }
-
 };
-
-
+console.log(calculadora.multiplicacao(5,7));
