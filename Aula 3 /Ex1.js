@@ -24,8 +24,12 @@ fatorial: function (num) {
     }
 },
 
-porcentagem: function (numA, numB, por){
-    return numA * (numB/100)
+porcentagem: function (numA, numB,){
+    return numA * (numB/100);
+},
+raizQuadrada: function (num){
+    return num*num;
 }
+
 };
 console.log(calculadora.multiplicacao(5,7));
