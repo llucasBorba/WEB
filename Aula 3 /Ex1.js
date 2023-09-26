@@ -29,7 +29,9 @@ porcentagem: function (numA, numB,){
 },
 raizQuadrada: function (num){
     return num*num;
+},
+potencia: function (num){
+    return num*num
 }
-
 };
 console.log(calculadora.multiplicacao(5,7));
