@@ -35,6 +35,12 @@ potencia: function (num){
 },
 quadrado: function (num){
     return num*num*num
+}, 
+potenciaDefinida: function (num, pot){
+    while(let i = 0; pot >i; i+= ){
+        var result num*num; 
+        return result
+    }
 }
 };
 console.log(calculadora.multiplicacao(5,7));
