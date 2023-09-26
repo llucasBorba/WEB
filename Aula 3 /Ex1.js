@@ -40,7 +40,8 @@ potenciaDefinida: function (num, pot){
     let i = 0;
     let result = 1;
     while( i < pot ){
-        
+        result *= num; 
+        i++
     }
 }
 };
