@@ -41,8 +41,9 @@ potenciaDefinida: function (num, pot){
     let result = 1;
     while( i < pot ){
         result *= num; 
-        i++
+        i++;
     }
+    return result
 }
 };
 console.log(calculadora.multiplicacao(5,7));
