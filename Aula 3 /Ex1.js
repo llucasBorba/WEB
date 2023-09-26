@@ -34,7 +34,7 @@ potencia: function (num){
     return num*num
 },
 quadrado: function (num){
-   
+    return num*num*num
 }
 };
 console.log(calculadora.multiplicacao(5,7));
