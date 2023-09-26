@@ -38,7 +38,7 @@ quadrado: function (num){
 }, 
 potenciaDefinida: function (num, pot){
     let i = 0;
-    while( pot >i, i+= ){
+    while( let i = 0, pot > i, i++ ){
         var result num * num; 
         return result
     }
