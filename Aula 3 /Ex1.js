@@ -33,7 +33,8 @@ raizQuadrada: function (num){
 potencia: function (num){
     return num*num
 },
-quadrado: 
-
+quadrado: function (num){
+   
+}
 };
 console.log(calculadora.multiplicacao(5,7));
