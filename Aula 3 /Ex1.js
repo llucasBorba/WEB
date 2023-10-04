@@ -45,18 +45,6 @@ potenciaDefinida: function (num, pot){
     }
     return result
 },
-calcularCons: function(anguloRadianos){
-var resultado = 1;
-var termo = 1;
-var sinal = -1;
-
-for (var i = 2; i <= 10; i += 2) {
-    termo *= (anguloRadianos * anguloRadianos) / (i * (i - 1));
-    resultado += sinal * termo;
-    sinal *= -1;
-}
-
-return resultado;
-}};
+};
 
 console.log(calculadora.multiplicacao(5,7));
