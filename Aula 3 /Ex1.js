@@ -60,3 +60,6 @@ return resultado;
 }};
 
 console.log(calculadora.multiplicacao(5,7));
+console.log(calculadora.porcentagem(40,30));
+console.log(calculadora.divisao(30,8));
+
