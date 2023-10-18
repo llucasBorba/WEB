@@ -5,7 +5,7 @@ function MultiplicacaoMatrix(matrixA, matrixB) {
     const colsB = matrixB[0].length;
     
     if (colsA !== rowsB) {
-        return;
+        return
     }
     
     const resultado = new Array(rowsA);
