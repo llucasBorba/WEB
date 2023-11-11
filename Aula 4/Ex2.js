@@ -1,4 +1,3 @@
-// Função construtora para criar objetos Aluno
 function Aluno(nome) {
     this.nome = nome;
     this.notas = [];
@@ -28,5 +27,4 @@ aluno1.incluirNota(8);
 aluno1.incluirNota(7);
 aluno1.incluirNota(6);
 
-// Calcular a média e verificar o status
 aluno1.calcularMedia(verificarStatus);
